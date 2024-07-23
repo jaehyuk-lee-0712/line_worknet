@@ -13,7 +13,7 @@ const Students = new Schema(
       type: String,
       required: true,
     },
-    resident_numbr: {
+    resident_number: {
       type: Number,
       required: true,
     },
