@@ -21,4 +21,5 @@ npx create-react-app
 npm install react-router-dom --save
 npm install redux react-redux --save
 npm install axios --save
+npm install sass
 ```
