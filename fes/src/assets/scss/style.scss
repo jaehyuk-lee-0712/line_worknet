@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import "./setting/root";
+@import "./setting/reset.scss";
+@import "./setting/font.scss";
+
+// componets  > aside
+@import "./aside/aside.scss";
+
+// main 안에 있는 renderView
+
+@import "./main/main.scss";
+@import "./main/document.scss";

@@ -1,0 +1,8 @@
+#main_wrap {
+  display: flex;
+  width: 100%;
+}
+
+.document_inner {
+  width: calc(100% - 360px);
+}
