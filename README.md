@@ -10,8 +10,8 @@
 
 ## 사용기술
 
-프론트엔드 - react.js
-백엔드 - node.js express
+프론트엔드 - react.js  
+백엔드 - node.js express  
 데이터베이스 - mongodb
 
 ## 설치 라이브러리 (fes)
@@ -22,4 +22,7 @@ npm install react-router-dom --save
 npm install redux react-redux --save
 npm install axios --save
 npm install sass
+npm install node-sass --save
+npm i react-icons
+npm i gsap
 ```
