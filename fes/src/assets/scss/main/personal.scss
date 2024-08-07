@@ -1,0 +1,319 @@
+#personal_wrap {
+    width: 100%;
+    height: 1048px;
+    overflow: auto;
+  
+    .personal_head {
+      width: 90%;
+      background-color: var(--main-color);
+      margin: 0 auto;
+      height: 100px;
+      border-top: 1px solid var(--main-color-400);
+      border-bottom: 1px solid var(--main-color-400);
+      margin-top: 54px;
+      display: table;
+
+      span {
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--main-color-200);
+        display: table-cell;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+      }
+    } 
+}
+// 프로필 정보
+.profile-wrap{
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    font-family: var(--font);
+    .profile-image{
+        width: 103px;
+        height: 132px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url(../../img/profile.svg);
+    }
+    .profile-info{
+        margin-left: 20px;
+        .contact{
+            
+            .phone-num{
+                margin-left: 200px;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .pm{
+            margin-left: 20px;
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+
+            svg{
+                margin-right: 5px;
+            }
+        }
+
+        h2{
+            font-family: var(--font);
+            span{
+                font-size: 1rem;
+                font-family: var(--font);
+            }
+        }
+    }
+
+}
+// 기본틀
+.element-wrap{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin: 0 auto;
+
+    .element-title{
+        border-bottom: 1px solid #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px 10px 20px;
+        h2{
+            font-size: 2rem;
+        }
+        .edit{
+
+            .edit-btn{
+                font-size: 1.1rem;
+                background-color: #fff;
+                color: #a5a5a5;
+                cursor: pointer;
+            }
+        }
+    }
+// 여기 까지 건들일 없음
+
+// 사업장 박스
+    .element-box{
+        width: 100%;
+        height: 150px;
+        padding: 20px;
+
+        .company{
+            width: 200px;
+            padding: 10px;
+            font-size: 1.4rem;
+            margin-right: 10px;
+        }
+        .department{
+            color: #a1a1a1;
+        }
+        .element-input-box{ 
+            margin-top: 10px;
+
+
+         .workplace-input{
+                width: 180px;
+                align-items: center;
+                text-align: center;
+                border-right: 1px solid #000;
+                padding: 10px 20px 10px 20px;
+            }
+ }
+    }
+
+// 훈련신청 사유 박스
+.element-input-box{
+    margin-top: 10px;
+    .training{
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// 최종 학력 박스
+    .education-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    .schoolname{
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin-right: 10px;
+    }
+    .date-attended{
+        padding: 5px;
+        font-size: 1rem;
+    }
+    
+    }
+    .department-input{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px;
+}
+}
+
+// 면허 및 자격증 & 경력 박스
+.element-wrap2{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+
+
+    .license-wrap{
+width: 100%;
+
+.license-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    .license-input{
+        margin-top: 10px;
+        width: 275px;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin-right: 10px;
+    }
+    .license-date{
+        width: 100px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+}
+
+.organization{
+
+    .organization-input{
+        margin-top: 10px;
+        margin-left: 20px;
+        padding: 5px;
+    }
+}
+        #license{
+            width: 90%;
+        }
+    }
+  
+        .career-wrap{
+            width: 100%;
+            margin-left: 50px;
+
+            .career-box{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                .career-input{
+                    margin-top: 10px;
+                    width: 275px;
+                    padding: 10px;
+                    font-size: 1.2rem;
+                    margin-right: 10px; 
+                }
+                .career-date{
+                    width: 100px;
+                    padding: 5px;
+                    font-size: 1rem;
+                }
+                
+            }
+            #career{
+                width: 100%;
+            }
+            .department{
+
+                .department-input{
+                    margin-top: 10px;
+                    margin-left: 20px;
+                    padding: 5px;
+                }
+            }
+        }
+    .element-title2{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #000;
+        padding: 20px 20px 10px 20px;
+
+       
+        h2{
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .add{
+
+            text-align: center;
+            align-items: center;
+            color: #a5a5a5;
+
+            .add-btn{
+                font-size: 1.1rem;
+                background-color: #fff;
+                color: #a5a5a5;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// 기타사항 박스
+
+.element-input-box{
+
+    .etc{
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// 저장하기 버튼
+
+.button-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .save-button{
+        padding: 10px;
+        width: 150px;
+        height: 40px;
+        background-color: var(--main-color);
+        border-radius: 10px;
+        margin-bottom: 50px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: var(--main-color-200);
+        }
+    }
+}
+
+#status{
+    padding: 5px;
+    border: 1px solid #8e8e8e;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 10px;
+margin-right: 20px;
+color: #8e8e8e;
+
+&:hover{
+    background-color: #cfcfcf;
+}
+}
