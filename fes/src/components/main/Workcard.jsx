@@ -168,7 +168,7 @@ const Workcard = () => {
                 <th>아니오</th>
               </tr>
               <tr>
-                <th></th>
+                <th rowSpan={2}></th>
                 <td>
                   <input type="checkbox" />
                 </td>
