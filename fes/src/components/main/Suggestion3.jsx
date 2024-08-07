@@ -1,8 +1,15 @@
 // 건의함 글 쓰기
 
-import React from "react";
+import React, { useState } from "react";
 
 const Suggestion3 = () => {
+
+  const [fileList, setFileList] = useState([]);
+
+  const handleFileChange = (event) => {
+    setFileList([...event.target.files]);
+  };
+
   return (
     <div id="suggestion3_wrap">
       <div className="suggestion_head">
@@ -38,41 +45,30 @@ const Suggestion3 = () => {
               />
             </td>
           </tr>
-          <tr>
-            <th>내용</th>
-            <td>
-              <div
-                className="textarea"
-                contentEditable="true"
-                id="content"
-              ></div>
-            </td>
-          </tr>
-          <tr>
-            <th>첨부 파일</th>
-            <td>
-              <div className="file_list" id="file_list">
-                <p className="file"></p>
-                {/* <input type="button" onClick="fileDelete(this);" /> */}
-              </div>
-              <label className="sel_file">
-                파일 선택
-                <input
-                  type="file"
-                  className="sel_file"
-                  multiple="multiple"
-                  id="file_upload"
-                  name="file_upload[]"
-                  accept=".jpg, .jpeg, .png, .gif, .pdf"
-                />
-              </label>
-              <ul className="noti">
-                <li>
-                  - 첨부파일 형식은 jpg, jpeg, png, gif, pdf 만 가능합니다.
-                </li>
-              </ul>
-            </td>
-          </tr>
+        <tr>
+      <th>첨부 파일</th>
+      <td>
+        <div className="file_list" id="file_list">
+          {fileList.map((file, index) => (
+            <p className="file" key={index}>{file.name}</p>
+          ))}
+        </div>
+        <label className="sel_file">
+          파일 선택
+          <input
+            type="file"
+            multiple
+            id="file_upload"
+            name="file_upload[]"
+            accept=".jpg, .jpeg, .png, .gif, .pdf"
+            onChange={handleFileChange}
+          />
+        </label>
+        <ul className="noti">
+          <li>- 첨부파일 형식은 jpg, jpeg, png, gif, pdf 만 가능합니다.</li>
+        </ul>
+      </td>
+    </tr>
         </thead>
       </table>
       <div className="support_btn">
