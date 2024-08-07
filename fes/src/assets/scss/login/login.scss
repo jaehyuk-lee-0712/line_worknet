@@ -21,6 +21,7 @@ body {
     position: absolute;
     left: 50px;
     top: 40%;
+    font-weight: bold;
     font-size: 3rem;
     font-family: "Krona One", sans-serif;
   }
@@ -85,6 +86,9 @@ body {
       font-size: 1rem;
       margin-right: 2%;
       cursor: pointer;
+      font-weight: bold;
+      margin-top: 13px;
+      display: block;
     }
   }
   .main {
@@ -98,6 +102,10 @@ body {
     .login-title {
       font-size: 1.5rem;
       text-align: center;
+
+      h2{
+        font-weight: bold;
+      }
     }
 
     .input-box {
@@ -114,6 +122,7 @@ body {
         border: 2px solid #dfdfdf;
         display: flex;
         font-size: 0.9rem;
+        box-sizing: initial;
       }
       .login-button {
         background-color: #c7c7c7;

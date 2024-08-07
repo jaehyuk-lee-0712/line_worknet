@@ -6,6 +6,7 @@ import Suggestion2 from "../components/main/Suggestion2";
 import Suggestion3 from "../components/main/Suggestion3";
 import Workcard from "../components/main/Workcard";
 import PersonalRecord from "../components/main/PersonalRecord";
+import Aside2 from "../components/aside/Aside2";
 
 const Main = () => {
   // const [currentView, setCurrentView] = useState("Document");
@@ -19,8 +20,7 @@ const Main = () => {
 
   return (
     <div id="main_wrap">
-      <Aside />
-      <Suggestion3 />
+      <Aside2 />
     </div>
   );
 };

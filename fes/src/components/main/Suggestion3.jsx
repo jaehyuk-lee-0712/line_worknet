@@ -45,6 +45,16 @@ const Suggestion3 = () => {
               />
             </td>
           </tr>
+          <tr>
+            <th>내용</th>
+            <td>
+              <div
+                className="textarea"
+                contentEditable="true"
+                id="content"
+              ></div>
+            </td>
+          </tr>
         <tr>
       <th>첨부 파일</th>
       <td>
