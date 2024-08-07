@@ -3,6 +3,7 @@
 @import "./setting/root";
 @import "./setting/reset.scss";
 @import "./setting/font.scss";
+@import "./setting/commons.scss";
 
 // componets  > aside
 @import "./aside/aside.scss";
@@ -12,3 +13,4 @@
 @import "./main/main.scss";
 @import "./main/document.scss";
 @import "./main/suggestion.scss";
+@import "./main/wordcard.scss";

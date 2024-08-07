@@ -1,11 +1,11 @@
 #aside {
   width: 360px;
-  height: 100%;
+  // height: 100%;
 
   .aside__wrap {
     width: 100%;
     height: 100%;
-    background-color: var(--main-color-300);
+    background-color: var(--point-color);
     display: flex;
     flex-direction: column;
 
@@ -96,7 +96,7 @@
 }
 
 .aside__bottom > ul > li a:hover {
-  background-color: var(--main-color-100);
+  background-color: var(--point-hover);
   color: #fff;
 }
 
@@ -123,6 +123,6 @@
 }
 
 .aside__bottom > ul > li > ul > li:hover {
-  background-color: var(--main-color-100);
+  background-color: var(--point-hover);
   color: #fff;
 }

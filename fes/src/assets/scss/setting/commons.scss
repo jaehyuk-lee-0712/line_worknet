@@ -1,0 +1,32 @@
+input[type="checkbox"] {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: 0px;
+  display: block;
+  background-image: url("../../img/icons/check_default.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  &:checked {
+    background-image: url("../../img/icons/check_selected.svg");
+  }
+  &:disabled {
+    background-image: url("../../img/icons/check_disabled.svg") !important;
+    cursor: default !important;
+  }
+}
+
+// input[type="add"] {
+//   width: 50px;
+//   height: 42px;
+//   outline: dashed;
+//   display: block;
+//   border: 0px;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   cursor: pointer;
+// }
