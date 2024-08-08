@@ -20,7 +20,8 @@ const Main = () => {
 
   return (
     <div id="main_wrap">
-      <Aside2 />
+      <Aside />
+      <Workcard />
     </div>
   );
 };
